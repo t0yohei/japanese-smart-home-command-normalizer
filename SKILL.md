@@ -1,11 +1,11 @@
 ---
 name: japanese-smart-home-command-normalizer
-description: Normalize Japanese smart-home voice commands after STT into structured intents and slots. Use when handling short Japanese commands for lights, air conditioners, and future smart-home devices, especially when transcripts contain common STT drift such as れーぼー, だんぼー, そうふう, or 電気化して.
+description: Normalize short Japanese smart-home voice transcripts after STT into safe structured intents and slots. Use when handling Japanese commands for lights and air conditioners, especially when transcripts contain STT drift such as れーぼー, だんぼー, そうふう, エアコントメテ, or 電気化して.
 ---
 
 # japanese-smart-home-command-normalizer
 
-Use this skill when a Japanese transcript needs to be normalized before smart-home execution.
+Use this skill when a short Japanese STT transcript needs to be normalized before smart-home execution.
 
 ## Workflow
 
